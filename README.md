@@ -124,11 +124,11 @@ For this project, the applied technique was over-sampling, since with this techn
 
 Table 2. Models Score with balance dataset
 
-|     Score       |     Random forest    |     K-Nearest Neighbor    |     XG Boost Classifier    |     Neuronal Network    |     Extra Trees    |
-|-----------------|----------------------|---------------------------|----------------------------|-------------------------|--------------------|
-|     Accuracy    |                      |                           |                            |     0.75                |                    |
-|     AUC         |                      |                           |                            |     0.7499              |                    |
-|     F1          |                      |                           |                            |                         |                    |
+|     Score       |     Random forest    |     K-Nearest Neighbor    |     XGBoost Classifier    |     Neural Network    |     Extra Trees    |
+|-----------------|----------------------|---------------------------|---------------------------|-----------------------|--------------------|
+|     Accuracy    |     0.7861           |     0.7747                |     0.9337                |     0.7565            |     0.9562         |
+|     ROC-AUC     |     0.7862           |     0.7748                |     0.9337                |     0.7565            |     0.9562         |
+|     F1-Score    |     0.7988           |     0.7853                |     0.9369                |     0.7673            |     0.9574         |
 
 
 ## Results Analysis
