@@ -1,5 +1,9 @@
 # Capstone Project | Data Science Bootcamp
 
+Tableau dasboard: [Link](https://public.tableau.com/views/DiabetesHealthDashboard/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link)
+
+Data Source: [Link](https://www.kaggle.com/alexteboul/diabetes-health-indicators-dataset)
+
 ## Introduction
 
 Chronic diabetes is one of the most common diseases in the modern world. Type 2 diabetes is an epidemic in high-income countries. This disease is in the list of the most common causes of disability, early disability, poor quality of life, and death. Type 2 diabetes mellitus increase risks of various complications, both specific for patients with diabetes, and cardiac, renal, and other diseases related to various organs of the human body. 
@@ -137,4 +141,3 @@ Table 2. Models Score with balance dataset
 Machine Learning models demonstrated high accuracy in diagnosing diabetes with 'AUC' ranging from 0.7565 to 0.9562 being **Extra Trees** the model that have the best performance with an 'Accuracy Score' of 0.9562. It’s important to mention that the Extra Trees model was implemented with the python library PyCaret and from the analysis made by this classifier it determined that BMI and Age features were the most important for the model. This result is visualized on the following graph
 
 ![image](https://user-images.githubusercontent.com/67977294/145492517-f36e8ca9-0dde-4296-a37c-17e4afebc3b5.png)
-
