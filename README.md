@@ -54,7 +54,7 @@ Demographics
   21.	What is the highest grade or year of school you completed? --> 'Education'
   22.	Is your annual household income from all sources --> 'Income'
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The following graph shows the distribution of the target feature (0: No diabetes, 1: Diabetes). With this information it is known that we are working with an imbalanced dataset since one class contains many more observations than the other class, so later we will apply different techniques to reduce the negative effect that it can cause in the prediction models.
  
