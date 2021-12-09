@@ -48,7 +48,6 @@ Health General and Mental Health
   16.	Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? --> 'MentHlth'
   17.	Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? --> 'PhysHlth'
   18.	Do you have serious difficulty walking or climbing stairs? --> 'DiffWalk'
-
 Demographics
   19.	Indicate sex of respondent. --> 'Sex'
   20.	Fourteen-level age category --> _'Age'
