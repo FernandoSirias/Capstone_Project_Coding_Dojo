@@ -1,4 +1,4 @@
-# Capstone Project | Coding Dojo
+# Capstone Project | Data Science Bootcamp
 
 ## Introduction
 
