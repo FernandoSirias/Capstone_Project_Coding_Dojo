@@ -48,6 +48,7 @@ Health General and Mental Health
   16.	Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? --> 'MentHlth'
   17.	Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? --> 'PhysHlth'
   18.	Do you have serious difficulty walking or climbing stairs? --> 'DiffWalk'
+
 Demographics
   19.	Indicate sex of respondent. --> 'Sex'
   20.	Fourteen-level age category --> _'Age'
@@ -69,6 +70,7 @@ The age column in the dataset was made as a range of values between 1 and 13, th
 •	...
 •	13: 80 or older.
 So, in the next plot we can see the ranges of ages with most cases of diabetes, people with an age between 65-69 are more likely to have diabetes.
+
 ![image](https://user-images.githubusercontent.com/67977294/145473285-5dfc4f07-158c-4ff7-8892-659f9200d516.png)
 
  
@@ -110,11 +112,11 @@ At the beginning we thought that the Education and Income columns would not be r
 Five separate machine learning techniques including Random Forest, K-Nearest Neighbor, XG Boost Classifier, Neuronal Network and Extras Trees were applied. In Table 1 we registered the accuracy score, AUC score and F1 for every model.
 
 Table 1. Models Score with imbalance dataset
-|     Score       |     Random forest    |     K-Nearest Neighbor    |     XG Boost Classifier    |     Neuronal Network    |     Extra Trees    |
-|-----------------|:--------------------:|:-------------------------:|:--------------------------:|:-----------------------:|:------------------:|
-|     Accuracy    |                      |           0.8606          |            0.8656          |          0.8667         |                    |
-|     AUC         |                      |           0.5399          |            0.5734          |          0.5567         |                    |
-|     F1          |                      |                           |                            |                         |                    |
+|     Score       |     Random forest    |     K-Nearest Neighbor    |     XGBoost Classifier    |     Neural Network    |     Extra Trees    |
+|-----------------|:--------------------:|:-------------------------:|:-------------------------:|:---------------------:|:------------------:|
+|     Accuracy    |         0.8674       |           0.8606          |           0.8411          |         0.8667        |        0.8515      |
+|     ROC-AUC     |         0.5533       |           0.5399          |           0.5965          |         0.5705        |        0.5688      |
+|     F1-Score    |         0.1991       |           0.1609          |           0.3100          |         0.2507        |        0.2490      |
 
 When observation in one class is higher than the observation in other classes then there exists a class imbalance, if the dataset is imbalance, then in such cases, you get a pretty high accuracy just by predicting the majority class, but you fail to capture the minority class, which is most often the point of creating the model in the first place, and as we could see from the Table 1, the results shows that the dataset was imbalance.
 
@@ -125,10 +127,10 @@ For this project, the applied technique was over-sampling, since with this techn
 Table 2. Models Score with balance dataset
 
 |     Score       |     Random forest    |     K-Nearest Neighbor    |     XGBoost Classifier    |     Neural Network    |     Extra Trees    |
-|-----------------|----------------------|---------------------------|---------------------------|-----------------------|--------------------|
-|     Accuracy    |     0.7861           |     0.7747                |     0.9337                |     0.7565            |     0.9562         |
-|     ROC-AUC     |     0.7862           |     0.7748                |     0.9337                |     0.7565            |     0.9562         |
-|     F1-Score    |     0.7988           |     0.7853                |     0.9369                |     0.7673            |     0.9574         |
+|-----------------|:--------------------:|:-------------------------:|:-------------------------:|:---------------------:|:------------------:|
+|     Accuracy    |         0.7861       |           0.7747          |           0.9337          |         0.7565        |        0.9562      |
+|     ROC-AUC     |         0.7862       |           0.7748          |           0.9337          |         0.7565        |        0.9562      |
+|     F1-Score    |         0.7988       |           0.7853          |           0.9369          |         0.7673        |        0.9574      |
 
 
 ## Results Analysis
