@@ -134,4 +134,7 @@ Table 2. Models Score with balance dataset
 
 ## Results Analysis
 
+Machine Learning models demonstrated high accuracy in diagnosing diabetes with 'AUC' ranging from 0.7565 to 0.9562 being **Extra Trees** the model that have the best performance with an 'Accuracy Score' of 0.9562. It’s important to mention that the Extra Trees model was implemented with the python library PyCaret and from the analysis made by this classifier it determined that BMI and Age features were the most important for the model. This result is visualized on the following graph
+
+![image](https://user-images.githubusercontent.com/67977294/145492517-f36e8ca9-0dde-4296-a37c-17e4afebc3b5.png)
 
