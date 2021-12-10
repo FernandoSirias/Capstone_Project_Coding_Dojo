@@ -23,20 +23,20 @@ This project uses data from the Center for Disease Control and Prevention (CDC) 
 
 ### Features:
 
-Response Variable
+Response Variable:
   1.	(Ever told) you have diabetes (If "Yes" and respondent is female, ask "Was this only when you were pregnant?" --> Diabetes_binary
 High Blood Pressure:
-  3.	Adults who have been told they have high blood pressure by a doctor, nurse, or other health professional --> 'HighBP'
+  3.	Adults who have been told they have high blood pressure by a doctor, nurse, or other health professional --> HighBP
 High Cholesterol:
-  3.	Have you EVER been told by a doctor, nurse or other health professional that your blood cholesterol is high? --> 'HighChol'
-  4.	Cholesterol check within past five years --> 'CholCheck'
-BMI
-  5.	Body Mass Index (BMI) --> ‘BMI’
-Smoking
-  6.	Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes] --> 'Smoker'
+  3.	Have you EVER been told by a doctor, nurse or other health professional that your blood cholesterol is high? --> HighChol
+  4.	Cholesterol check within past five years --> CholCheck
+BMI:
+  5.	Body Mass Index (BMI) --> 'BMI'
+Smoking:
+  7.	Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes] --> 'Smoker'
 Other Chronic Health Conditions
   7.	(Ever told) you had a stroke. --> 'Stroke'
-  8.	Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI) --> 'HeartDiseaseorAttack' 
+  8.	Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI) --> 'HeartDiseaseorAttack'
 Physical Activity
   9.	Adults who reported doing physical activity or exercise during the past 30 days other than their regular job --> 'PhysActivity'
 Diet
@@ -67,11 +67,13 @@ The following graph shows the distribution of the target feature (0: No diabetes
 ![image](https://user-images.githubusercontent.com/67977294/145473245-ca1932b8-cf07-4a61-96c0-61739e5fd117.png)
 
 The age column in the dataset was made as a range of values between 1 and 13, this is because each value corresponds to a range of 5 years:
-•	1: 18-24.
-•	2: 25-29.
-•	3: 30-34.
-•	...
-•	13: 80 or older.
+
+- 1: 18-24.
+- 2: 25-29.
+- 3: 30-34.
+- ...
+- 13: 80 or older.
+
 So, in the next plot we can see the ranges of ages with most cases of diabetes, people with an age between 65-69 are more likely to have diabetes.
 
 ![image](https://user-images.githubusercontent.com/67977294/145473285-5dfc4f07-158c-4ff7-8892-659f9200d516.png)
