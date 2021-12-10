@@ -18,7 +18,7 @@ This project uses data from the Center for Disease Control and Prevention (CDC) 
 
 ## Dataset
 
-The used dataset had 22 features and 253680 …
+This project uses data from the Center for Disease Control and Prevention (CDC) on factors that can contribute to a person having diabetes, the dataset contains more than 250K observations of symptoms and conditions of patients who have or not the disease.
 
 
 ### Features:
